@@ -33,7 +33,7 @@ public class Angulos {
 	}
 	
 	public static int transformaHoraEmAngulo(int hora){
-//		Basicamente, dividindo 360º em 12hrs temos 30, ou seja, cada hora equivale à 30º, como isso temos: 		
+//		Basicamente, dividindo 360º em 12hrs temos 30, ou seja, cada hora equivale à 30º, com isso temos: 		
 		int angulo = 30;
 		int anguloPonteiroHora = hora * angulo;
 // 		Retorna o angulo do ponteiro da hora.
