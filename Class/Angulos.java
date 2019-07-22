@@ -18,7 +18,7 @@ public class Angulos {
 		}
 		else if(minuto > 15 && minuto <= 30) {
 			int newMinuto = minuto - 15;
-			anguloPonteiroMinuto = (newMinuto * 6) + 45;
+			anguloPonteiroMinuto = (newMinuto * 9) + 45;
 		}
 		else if(minuto > 30 && minuto <= 45) {
 			int newMinuto = minuto - 30;
@@ -26,7 +26,7 @@ public class Angulos {
 		}
 		else if(minuto > 45 && minuto <=59) {
 			int newMinuto = minuto - 45;
-			anguloPonteiroMinuto = (newMinuto * 6) + 225;
+			anguloPonteiroMinuto = (newMinuto * 9) + 225;
 		}
 //		Retorna o angulo do ponteiro dos minutos.		
 		return anguloPonteiroMinuto;
